@@ -1,0 +1,30 @@
+/* All images used belong to:
+
+Markus Spiske - https://500px.com/markusspiske
+
+Yinan Chen - https://500px.com/webmaster85
+
+Fahim Akhter - https://500px.com/fahimakhter  */
+
+
+picture,img{
+   max-width:90%;
+}
+
+li{
+    list-style: none;
+    width:100%;
+    float: left;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+  li{
+    width:50%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  li{
+    width:25%;
+  }
+}
